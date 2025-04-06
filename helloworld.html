@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unveiling the Secrets of US Domestic Air Travel</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <style>
+        /* 自定义过渡动画 */
+       .hover-scale {
+            transition: transform 0.3s ease;
+        }
+
+       .hover-scale:hover {
+            transform: scale(1.05);
+        }
+
+        /* 设置主题部分的背景图片样式 */
+       .header-bg {
+            background-image: url('https://statics.hkbaike.com.hk/uploadfile/2024/0419/20240419105718849.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 font-sans text-gray-700">
+    <!-- 标题部分 -->
+    <header class="header-bg text-white text-center py-16">
+        <h1 class="text-4xl font-bold mb-2">Unveiling the Secrets of US Domestic Air Travel</h1>
+        <p class="text-lg">Embark on a journey through the skies of the United States.</p>
+    </header>
+
+    <!-- 研究主题部分 -->
+    <section class="container mx-auto py-12 px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">The Journey Begins: Our Research Theme</h2>
+        <p class="text-lg leading-relaxed mb-4">Imagine a vast sky crisscrossed by countless airplanes, carrying passengers
+            to their dreams and destinations across the United States. Our research dives deep into the world of US
+            domestic air travel, focusing on the intricate web of passenger movements, fare dynamics, and mileage
+            patterns among major cities. It's a quest to understand the heartbeat of air travel within the nation.</p>
+    </section>
+
+    <!-- 研究目标部分 -->
+    <section class="bg-white py-12 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Our Mission: Research Objectives</h2>
+            <p class="text-lg leading-relaxed mb-4">We set out on this journey with a clear purpose. We wanted to peel
+                back the layers and discover where passengers were taking off from and landing at. By analyzing data, we
+                aimed to uncover the ebb and flow of passenger numbers throughout the year, as well as how fares danced
+                with the seasons and across different routes. Why? Because this knowledge can be a compass for travelers
+                planning their adventures and a roadmap for airlines charting their courses.</p>
+        </div>
+    </section>
+
+    <!-- 研究结果部分 -->
+    <section class="container mx-auto py-12 px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">The Tales Revealed: Research Results</h2>
+
+        <!-- 出发地和目的地 -->
+        <div class="mb-12">
+            <h3 class="text-2xl font-bold mb-4">The Starting and Ending Points</h3>
+            <p class="text-lg leading-relaxed mb-4">As we delved into the data, a vivid picture emerged. Los Angeles,
+                with its sunny allure, became a bustling hub of departures, sending 79 thousand passengers on their way.
+                Chicago and Boston, too, were among the top starting points. On the flip side, New York City, like a
+                magnetic metropolis, drew in a whopping 103 thousand passengers as a destination. Washington and San
+                Francisco also shone brightly on the destination map. It's as if these cities are the stars around which
+                the constellation of air travel revolves.</p>
+            <img src="1US.png" alt="Bar charts of passenger origins and destinations"
+                class="hover-scale rounded-md shadow-md">
+        </div>
+
+        <!-- 年度旅客数量变化 -->
+        <div class="mb-12">
+            <h3 class="text-2xl font-bold mb-4">The Rhythm of the Year</h3>
+            <p class="text-lg leading-relaxed mb-4">The story of passenger numbers throughout 2023 and 2024 was like a
+                symphony with its crescendos and diminuendos. In the second quarter of 2023, the number of passengers
+                hit a high note of 853 thousand, perhaps lured by the warmth of summer and the promise of vacations. But
+                as the year rolled on, the numbers ebbed and flowed, ending at 743 thousand in the first quarter of 2024.
+                The seasons, holidays, and the eagerness of travelers all played their parts in this rhythmic dance.</p>
+            <img src="2US.png" alt="Line chart of passenger numbers by year and quarter"
+                class="hover-scale rounded-md shadow-md">
+        </div>
+
+        <!-- 票价与里程关系 -->
+        <div class="mb-12">
+            <h3 class="text-2xl font-bold mb-4">The Fare - Mileage Tango</h3>
+            <p class="text-lg leading-relaxed mb-4">Our exploration then led us to the relationship between fares and
+                mileage. Like a dance between two partners, fares and mileage moved in tandem, yet with a bit of
+                improvisation. Flights with higher fares often took passengers on longer journeys, but there were
+                exceptions, like a dancer breaking from the routine. This scatter - plot dance told a story of the
+                complex interplay between distance and cost in the world of air travel.</p>
+            <img src="3US.png" alt="Scatter plot of fare and mileage"
+                class="hover-scale rounded-md shadow-md">
+        </div>
+
+        <!-- 不同航线平均票价对比 -->
+        <div class="mb-12">
+            <h3 class="text-2xl font-bold mb-4">The Price Tag on Different Journeys</h3>
+            <p class="text-lg leading-relaxed mb-4">Venturing into the realm of route - specific fares, we discovered a
+                landscape of contrasts. Take the Los Angeles - New York (LAX - JFK) route, for instance. It boasted an
+                average high fare of 462.07 and an average low fare of 344.74. Different routes, like different paths
+                in a forest, had their own unique price tags, shaped by distance, operating costs, and the all -
+                important market demand.</p>
+            <img src="4US.png" alt="Table of average fares comparison on different routes"
+                class="hover-scale rounded-md shadow-md">
+        </div>
+
+        <!-- 不同航线最高与最低票价 -->
+        <div class="mb-12">
+            <h3 class="text-2xl font-bold mb-4">The Extremes of Pricing</h3>
+            <p class="text-lg leading-relaxed mb-4">Peeking into the maximum and minimum fares of various routes was
+                like looking at the peaks and valleys of a mountain range. The Los Angeles - New York (LAX - JFK) route
+                again caught our eye, with a maximum fare reaching 442 and a minimum of 399. These price extremes on
+                different routes painted a picture of the diverse pricing strategies and market forces at play.</p>
+            <img src="5US.png" alt="Bar chart of maximum and minimum fares on different routes"
+                class="hover-scale rounded-md shadow-md">
+        </div>
+
+        <!-- 不同季度平均票价 -->
+        <div class="mb-12">
+            <h3 class="text-2xl font-bold mb-4">The Seasonal Swing of Fares</h3>
+            <p class="text-lg leading-relaxed mb-4">As the quarters passed, fares also took on a life of their own. In
+                the second quarter of 2023, they soared to an average of 257.0, maybe riding the wave of peak travel
+                demand. Then, in the third quarter, they dipped to 241.3, perhaps cooling off with the changing weather.
+                But by the fourth quarter, they rebounded to 253.2, like a phoenix rising. It was a seasonal saga of
+                supply and demand, fuel costs, and traveler behavior.</p>
+            <img src="6US.png" alt="Line chart of average fares by quarter"
+                class="hover-scale rounded-md shadow-md">
+        </div>
+
+        <!-- 主要航线旅客流量 -->
+        <div>
+            <h3 class="text-2xl font-bold mb-4">The Busy Highways in the Sky</h3>
+            <p class="text-lg leading-relaxed mb-4">Finally, we turned our gaze to the busiest routes. The Los Angeles -
+                New York (LAX - JFK) route emerged as a superhighway in the sky, with a passenger flow of 5.3 thousand.
+                Routes like New York - Orlando (EWR - MCO) also carried a significant number of travelers. These routes
+                were the arteries of US domestic air travel, pulsing with the energy of business trips, vacations, and
+                family reunions.</p>
+            <img src="7US.png" alt="Bar chart of passenger flow on major routes"
+                class="hover-scale rounded-md shadow-md">
+        </div>
+    </section>
+
+    <!-- 页脚部分 -->
+    <footer class="bg-gray-800 text-white text-center py-8">
+        <p>&copy; 2025 Air Travel Research. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
