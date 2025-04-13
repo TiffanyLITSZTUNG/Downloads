@@ -1,0 +1,34 @@
+[
+    {
+        "username": "Harry Potter",
+        "password": "harrypotter19800731",
+        "secretQuestion": "What was the first Horcrux you got?",
+        "secretAnswer": ["Philosopher's Stone", "philosopher's stone"],
+        "secretCorrectMessage": "Your password is: harrypotter19800731",
+        "passwordCorrectMessage": "Username: Voldemort, sorry the flag is not here."
+    },
+    {
+        "username": "Ron",
+        "password": "ronaldbiliusweasley19800301",
+        "secretQuestion": "Who is your wife?(full name)",
+        "secretAnswer": ["Hermione Jean Granger"],
+        "secretCorrectMessage": "Your password is: ronaldbiliusweasley19800301",
+        "passwordCorrectMessage": "Base64, sorry the flag is not here"
+    },
+    {
+        "username": "Hermione",
+        "password": "I'mnotaMuggle",
+        "secretQuestion": "What is the spell for the Unlocking Charm?",
+        "secretAnswer": ["Alohomora"],
+        "secretCorrectMessage": "Your password is: I'mnotaMuggle",
+        "passwordCorrectMessage": "VG9tIE1hcnZvbG8gUmlkZGxl, sorry the flag is not here."
+    },
+    {
+        "username": "Voldemort",
+        "password": "I am Lord Voldemort",
+        "secretQuestion": "What did you get from them",
+        "secretAnswer": ["Tom Marvolo Riddle"],
+        "secretCorrectMessage": "Shuffle the string:Tom Marvolo Riddle,into:x xx Lord Voldemort,and you will get the flag and password!",
+        "passwordCorrectMessage": "Congratulations!!The Flag:I am Lord Voldemort"
+    }
+]
