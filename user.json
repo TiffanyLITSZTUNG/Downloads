@@ -26,7 +26,7 @@
     {
         "username": "Voldemort",
         "password": "I am Lord Voldemort",
-        "secretQuestion": "What did you get from them",
+        "secretQuestion": "What did you get from them?",
         "secretAnswer": ["Tom Marvolo Riddle"],
         "secretCorrectMessage": "Shuffle the string:Tom Marvolo Riddle,into:x xx Lord Voldemort,and you will get the flag and password!",
         "passwordCorrectMessage": "Congratulations!!The Flag:I am Lord Voldemort"
