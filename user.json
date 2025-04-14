@@ -3,7 +3,7 @@
         "username": "Harry Potter",
         "password": "harrypotter19800731",
         "secretQuestion": "What was the first Horcrux you got?",
-        "secretAnswer": ["Philosopher's Stone", "philosopher's stone"],
+        "secretAnswer": ["Tom Riddle's Diary"],
         "secretCorrectMessage": "Your password is: harrypotter19800731",
         "passwordCorrectMessage": "Username: Voldemort, sorry the flag is not here."
     },
